@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+* a{
+    text-decoration: none;
+}
+
+body{
+}
+
+header{
+    background-image: url(img/libreriacv.jpeg);
+    height: 50vh;
+    background-size: cover;
+}
+header img{
+    display: block;
+    margin: 0 auto;
+    height: 25vh;
+    border-radius: 2rem;
+}
+.title{
+    background-color: #C4C4C4;
+    color: #005677;
+    
+}
+h1.title{
+    text-align: center;
+    margin: 2vh 0vh 5vh 0vh;
+    letter-spacing: 0.8rem;
+}
+h2.title{
+    text-indent: 1rem;
+}
+.no-text-decoration{
+    list-style: none;
+}
+section{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.section-2{
+    height: 20vh;
+}
+.section-2 ul{
+    padding-inline-start: 1rem;
+}
+.section-3{
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 30vh;
+    margin-bottom: 5vh;
+}
+.section-3 ul{
+    margin-top: 1rem;
+    padding-inline-start: 1rem;
+}
+.section-3 ul li{
+    margin-bottom: 0.3rem;
+}
+p{
+    text-indent: 5rem;
+}
+span{
+    font-weight: bold;  
+}
+footer{
+    background-color: #005677;
+    color: white;
+    text-align: center;
+    padding: 1vh;
+    letter-spacing: 0.7rem;
+}
+
+footer a{
+    font-size: 3rem;
+}
+
+li{
+    line-height: 1.3rem;
+}
+
+.link{
+    font-size: 1.2rem;
+    text-align: center;
+    transition: all 200ms;
+}
+
+.link:hover{
+    font-size: 1.4rem;
+    color: blue;
+}
+.link a:hover{
+    text-decoration: underline;
+}
